@@ -3,7 +3,7 @@
             <meta name="mobile-web-app-capable" content="yes">
             <meta name="apple-mobile-web-app-capable" content="yes">
         <link rel="stylesheet" href="./style_main.css"/>
-        <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+        <script src="./vue.js"></script>
     </head>
     <body>
         <a href="#">
@@ -14,8 +14,8 @@
         </a>
         <a href="#">
             <div id="compass">
-                <img src="./compass/compass.svg"/>
-                <div>{{heading}}</div>
+                <img src="./compass/compass.svg"  style="transform: rotate(20deg);"/>
+                <div>{{alpha}}</div>
             </div>
         </a>
     </body>

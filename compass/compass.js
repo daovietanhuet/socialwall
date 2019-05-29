@@ -1,17 +1,7 @@
-import { setInterval } from "timers";
-
 var compass = new Vue({
     el: '#compass',
     data: {
         alpha: null,
-        heading: null,
-    },
-    methods: {
-        
-    },
-    created: function(){
-        self = this;
-        setInterval(() => {self.heading = self.alpha}, 500);
     }
 });
 
