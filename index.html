@@ -1,0 +1,24 @@
+<html>
+    <head>
+            <meta name="mobile-web-app-capable" content="yes">
+            <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="stylesheet" href="./style_main.css"/>
+        <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    </head>
+    <body>
+        <a href="#">
+            <div id="clock">
+                <p class="date">{{ date }}</p>
+                <p class="time">{{ time }}</p>
+            </div>
+        </a>
+        <a href="#">
+            <div id="compass">
+                <img src="./compass/compass.svg"/>
+                <div>{{alpha}} {{beta}} {{gamma}} {{test? 'ok': 'no'}} {{e}}</div>
+            </div>
+        </a>
+    </body>
+    <script src="./clock/clock.js"></script>
+    <script src="./compass/compass.js"></script>
+</html>

@@ -1,0 +1,33 @@
+body{
+    background: #36454f
+}
+a {
+    display: block;
+    margin: 5px; 
+    text-decoration: none;
+}
+#clock {
+    width: 40%;
+    font-family: 'Share Tech Mono', monospace;
+    text-align: center;
+    color: #daf6ff;
+    background-color: black; 
+    padding: 3px
+}
+.time {
+    letter-spacing: 0.05em;
+    font-size: 3rem;
+    margin: 0
+}
+.date {
+    letter-spacing: 0.1em;
+    font-size: .8rem;
+    margin: 0
+}
+
+#compass {
+    width: 20%;
+    background: url('./compass/bg.jpg');
+    background-size: cover;
+    padding: 5px;
+}
