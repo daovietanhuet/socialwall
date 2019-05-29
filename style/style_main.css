@@ -26,7 +26,7 @@ a {
 }
 
 #compass {
-    background: url('./compass/bg.jpg');
+    background: url('../images/bg.jpg');
     background-size: cover;
     padding: 5px;
     color: #daf6ff;
