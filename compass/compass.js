@@ -9,8 +9,9 @@ var compass = new Vue({
     methods: {
         
     },
-    created: () => {
-        setInterval(() => {this.heading = this.alpha}, 500);
+    created: function(){
+        self = this;
+        setInterval(() => {self.heading = self.alpha}, 500);
     }
 });
 
