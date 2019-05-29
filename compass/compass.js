@@ -14,7 +14,7 @@ window.addEventListener("deviceorientation", function(e) {
 }, false);
 
 function smoothHeading() {
-    setInterval(() => {compass.heading = compass.alpha;}, 5000)
+    setInterval(() => {compass.heading = compass.alpha;}, 50)
 }
 
 smoothHeading();
