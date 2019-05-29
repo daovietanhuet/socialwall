@@ -2,8 +2,11 @@ var compass = new Vue({
     el: '#compass',
     data: {
         alpha: null,
+        heading: null
     }
 });
+
+setInterval(function(){compass.heading = compass.alpha}, 50);
 
 window.addEventListener("deviceorientation", function(e) {
     compass.alpha = Math.ceil(e.alpha);
