@@ -7,7 +7,7 @@ a {
     text-decoration: none;
 }
 #clock {
-    width: 45%;
+    width: 47.25%;
     font-family: 'Share Tech Mono', monospace;
     text-align: center;
     color: #daf6ff;
@@ -26,7 +26,7 @@ a {
 }
 
 #compass {
-    width: 50%;
+    width: 47.25%;
     background: url('./compass/bg.jpg');
     background-size: cover;
     padding: 5px;
