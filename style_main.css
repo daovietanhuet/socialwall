@@ -2,12 +2,12 @@ body{
     background: #36454f
 }
 a {
+    width: 47.25%;
     display: block;
     margin: 5px; 
     text-decoration: none;
 }
 #clock {
-    width: 47.25%;
     font-family: 'Share Tech Mono', monospace;
     text-align: center;
     color: #daf6ff;
@@ -26,7 +26,6 @@ a {
 }
 
 #compass {
-    width: 47.25%;
     background: url('./compass/bg.jpg');
     background-size: cover;
     padding: 5px;
