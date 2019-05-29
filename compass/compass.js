@@ -13,7 +13,7 @@ window.addEventListener("deviceorientation", function(e) {
     if (typeof e.webkitCompassHeading !== "undefined") {
         compass.alpha = Math.abs(Math.ceil(e.webkitCompassHeading) - compass.alpha) <= 1 ? compass.alpha : Math.ceil(e.webkitCompassHeading); //iOS non-standard
     }
-    heading = 360 - compass.alpha; 
+    let heading = 360 - compass.alpha; 
     compass.dir = direction[((heading - heading % 90) / 90) % 4] + 
         (heading % 90 !== 0 ? direction[((heading - heading % 90) / 90 +1) % 4] : '')
 }, false);
